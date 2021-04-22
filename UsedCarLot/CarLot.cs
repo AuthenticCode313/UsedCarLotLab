@@ -6,6 +6,10 @@ namespace UsedCarLot
 {
     class CarLot 
     {
+
+        public static List<Car> _cars;
+
+
         List<Car> cars = new List<Car>
         {
             new Car("Nikolai Model","S", 2017, 54999.90),
@@ -21,6 +25,7 @@ namespace UsedCarLot
       
         public static List<Car> AddCar(List<Car> cars)           
         {
+
             Console.WriteLine("Enter make of car");
             string choice1 = Console.ReadLine();
             Console.WriteLine("Enter model of car");
