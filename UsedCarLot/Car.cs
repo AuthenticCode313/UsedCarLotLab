@@ -52,8 +52,8 @@ namespace UsedCarLot
 
         public override string ToString()
         {
-            Console.WriteLine($"{this._make} {this._model} {this._year} {this._price}");
-            return base.ToString();
+            return $"{this._make} {this._model} {this._year} {this._price}";
+            
 
         }
     }
